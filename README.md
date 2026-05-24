@@ -35,10 +35,14 @@ int main() {
     char charLiteral = 'A';
     char stringLiteral[] = "Hello C";
 
-    printf("Integer literal: %d, Size: %lu bytes\n", intLiteral, sizeof(intLiteral));
-    printf("Float literal: %f, Size: %lu bytes\n", floatLiteral, sizeof(floatLiteral));
-    printf("Character literal: %c, Size: %lu bytes\n", charLiteral, sizeof(charLiteral));
-    printf("String literal: %s, Size: %lu bytes\n", stringLiteral, sizeof(stringLiteral));
+    printf("Integer literal: %d, Size: %lu bytes\n", intLiteral,
+    sizeof(intLiteral));
+    printf("Float literal: %f, Size: %lu bytes\n", floatLiteral,
+    sizeof(floatLiteral));
+    printf("Character literal: %c, Size: %lu bytes\n", charLiteral,
+    sizeof(charLiteral));
+    printf("String literal: %s, Size: %lu bytes\n", stringLiteral,
+    sizeof(stringLiteral));
 
     return 0;
 }
