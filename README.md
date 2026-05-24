@@ -269,7 +269,8 @@ int main(){
     scanf("%c",&ch);
     (ch>='0' && ch<='9')?printf("Digit\n"):
     ((ch>='A' && ch<='Z')||(ch>='a' && ch<='z'))?
-    ((ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'||ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')?printf("Vowel\n"):printf("Consonant\n"))
+    ((ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'||ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')?
+    printf("Vowel\n"):printf("Consonant\n"))
     :printf("Special Symbol\n");
     return 0;
 }
